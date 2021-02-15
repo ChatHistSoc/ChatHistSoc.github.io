@@ -60,7 +60,7 @@ a {
 }
 
 .outline {
-	color: white;
+	color: 000000;
 	text-shadow: #000 0px 0px 30px;
 	-webkit-font-smoothing: antialiased;
 }
@@ -216,7 +216,8 @@ hr {
 }
 #about .about-text {
 	margin-left: 10px;
-	text-align: center;
+	text-align: justify;
+	text-justify: inter-word;
 }
 #about img {
 	border-radius: 10%;
@@ -400,7 +401,8 @@ ol.type li a:hover {
 }
 #tour .tour-text {
 	margin-left: 10px;
-	text-align: center;
+	text-align: justify;
+	text-justify: inter-word;
 }
 #tour img {
 	border-radius: 10%;
@@ -448,6 +450,11 @@ ol.type li a:hover {
 #forms {
 	padding: 100px 0;
 	background: #f6f6f6;
+}
+#forms .forms-text {
+	margin-left: 10px;
+	text-align: justify;
+	text-justify: inter-word;
 }
 
 /* Contact Section */
@@ -683,6 +690,27 @@ header .intro-text {
 }
 }
 
+/*Blog Background*/
+#blog1 {
+	padding: 100px 0;
+	background: #ffffff;
+}
+#blog2 {
+	padding: 100px 0;
+	background: #f6f6f6;
+}
+
+#blog1 .blog-text {
+	margin-left: 10px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+#blog2 .blog-text {
+	margin-left: 10px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
 /*Blog Slideshow*/
 * {box-sizing:border-box}
 
@@ -691,11 +719,6 @@ header .intro-text {
   max-width: 1000px;
   position: relative;
   margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
 }
 
 /* Next & previous buttons */
@@ -738,7 +761,8 @@ header .intro-text {
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
+  background-color: rgba(255,255,255,0.5);
+  color: #000000;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
