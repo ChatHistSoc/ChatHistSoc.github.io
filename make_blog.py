@@ -7,6 +7,17 @@ with open("blog/posts.txt", "r") as posts_file:
 
 n_posts = len(posts)
 
+with open("blog/keywords.txt", "r") as keywords_file:
+    keywords = [ii.replace("\n", "") for ii in keywords_file.readlines()]
+
+n_keywords = len(keywords)
+n_post_per_keyword = [0] * n_keywords
+
+keyword_blog_pages = []
+for ii, keyword in enumerate(keywords):
+    keyword_blog_pages.append(open(f"{keyword}.html", "w"))
+
+
 with open("css/Blogstyle.css", "w") as blog_css_file:
     for ii in range(n_posts):
         blog_css_file.write(f".mySlides{ii + 1} {{display: none}}\n")
@@ -33,11 +44,36 @@ function showSlides(n, no) {
 }
 """)
 
+blog_nav_bar_from_keywords = '<li> <a class="page-scroll" href=blog.html>Recent</a></li>\n'
+for ii, keyword in enumerate(keywords):
+    blog_nav_bar_from_keywords += f'<li> <a class="page-scroll" href={keyword}.html>{keyword}</a></li>\n'
+
+blog_nav_bar = f"""
+<!-- Navigation -->
+<div id="nav">
+  <nav class="navbar navbar-custom">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+        <a class="navbar-brand page-scroll" href="index.html">Home</a> </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          {blog_nav_bar_from_keywords}          
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+"""
+
 #################################################################################
 #################################################################################
 #################################################################################
 
-blog_header = """
+blog_header = f"""
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -77,15 +113,12 @@ blog_header = """
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-<!-- Navigation -->
-<div id="nav">
-  <nav class="navbar navbar-custom">
-    <div class="container">
-        <a class="navbar-brand page-scroll" href="index.html">Home</a> </div> 
-    </div>
-  </nav>
-</div>
+{blog_nav_bar}
 """
+
+
+
+
 
 blog_footer = f"""
 <!--Footer-->
@@ -113,6 +146,8 @@ blog_footer = f"""
 </html>
 """
 
+for ii, keyword in enumerate(keywords):
+    keyword_blog_pages[ii].write(blog_header + "\n")
 
 with open("./blog.html", "w") as mainblog_file:
     mainblog_file.write(blog_header + "\n")
@@ -127,6 +162,9 @@ with open("./blog.html", "w") as mainblog_file:
         this_author = post_source[3]
         this_date = post_source[4]
 
+        this_keywords = post_source[5:]
+        n_this_keywords = len(this_keywords)
+
         with open(f"blog/imgs/{posts[ii]}/{image_filename}", "r") as image_file:
             images = [jj.replace("\n", "") for jj in image_file.readlines()]
 
@@ -137,7 +175,8 @@ with open("./blog.html", "w") as mainblog_file:
 
         content = "\n".join(content)
 
-        mainblog_file.write(f"""
+        if ii <= 2:
+            mainblog_file.write(f"""
 <!-- Site Page -->
 <div id="blog{ii%2 + 1}">
   <div class="container">
@@ -154,21 +193,21 @@ with open("./blog.html", "w") as mainblog_file:
 
 """)
 
-        for kk in range(n_images):
-            mainblog_file.write(f"""
+            for kk in range(n_images):
+                mainblog_file.write(f"""
   <div class="mySlides{ii + 1} none">
      <div class="numbertext">{kk + 1} / {n_images}</div>
     <img src="blog/imgs/{posts[ii]}/{images[kk]}" style="width:100%">
   </div>
 """+ "\n")
-        mainblog_file.write(f"""
+            mainblog_file.write(f"""
       <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1, {ii})">&#10094;</a>
   <a class="next" onclick="plusSlides(1, {ii})">&#10095;</a>
 </div>
 <br>
 """ + "\n")
-        mainblog_file.write(f"""
+            mainblog_file.write(f"""
         <div class="blog-text">
         {content}
         </div>
@@ -176,4 +215,51 @@ with open("./blog.html", "w") as mainblog_file:
 </div>
 """ + "\n")
 
+        for ll in range(n_keywords):
+            current_blog_keyword = keywords[ll]
+            if current_blog_keyword in this_keywords:
+                keyword_blog_pages[ll].write(f"""
+<!-- Site Page -->
+<div id="blog{ii%2 + 1}">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>{this_title}</h2>
+      <hr>
+      <h5>{this_date} | {this_author}</h5>
+    </div>
+
+     <!-- Slideshow container -->
+<div class="slideshow-container">
+
+<!-- Full-width images with number and caption text -->
+
+""")
+
+                for kk in range(n_images):
+                    keyword_blog_pages[ll].write(f"""
+  <div class="mySlides{n_post_per_keyword[ll] + 1} none">
+     <div class="numbertext">{kk + 1} / {n_images}</div>
+    <img src="blog/imgs/{posts[ii]}/{images[kk]}" style="width:100%">
+  </div>
+""" + "\n")
+                keyword_blog_pages[ll].write(f"""
+      <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1, {n_post_per_keyword[ll]})">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, {n_post_per_keyword[ll]})">&#10095;</a>
+</div>
+<br>
+""" + "\n")
+                keyword_blog_pages[ll].write(f"""
+        <div class="blog-text">
+        {content}
+        </div>
+    </div>
+</div>
+""" + "\n")
+                n_post_per_keyword[ll] += 1
+
     mainblog_file.write(blog_footer + "\n")
+
+for ii, keyword in enumerate(keywords):
+    keyword_blog_pages[ii].write(blog_footer + "\n")
+    keyword_blog_pages[ii].close()
