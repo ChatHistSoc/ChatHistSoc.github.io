@@ -220,7 +220,7 @@ with open("./blog.html", "w") as mainblog_file:
             if current_blog_keyword in this_keywords:
                 keyword_blog_pages[ll].write(f"""
 <!-- Site Page -->
-<div id="blog{ii%2 + 1}">
+<div id="blog{n_post_per_keyword[ll]%2 + 1}">
   <div class="container">
     <div class="section-title text-center center">
       <h2>{this_title}</h2>
