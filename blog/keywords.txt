@@ -4,3 +4,4 @@ Farms
 People
 Streets
 Transportation
+Society_News
