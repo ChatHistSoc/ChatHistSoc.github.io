@@ -31,7 +31,7 @@ h5 {
 	line-height: 20px;
 }
 .alert-box {
-	background-color: #d0e4d7;
+	background-color: #fffec5;
 	color: #777;
 	font-size: 14px;
 	line-height: 23px;
@@ -40,7 +40,7 @@ h5 {
 	font-family:Arial, Helvetica, sans-serif;
 }
 .alert-box .badge {
-	background-color: #076d48;
+	background-color: #ffb54e;
 	border-radius: 3px;
 	color: #fff;
 	margin-left: 4px;
