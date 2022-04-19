@@ -181,7 +181,7 @@ with open("./blog.html", "w") as mainblog_file:
 <div id="blog{ii%2 + 1}">
   <div class="container">
     <div class="section-title text-center center">
-      <h2>{this_title}</h2>
+      <h1>{this_title}</h1>
       <hr>
       <h5>{this_date} | {this_author}</h5>
     </div>
@@ -223,7 +223,7 @@ with open("./blog.html", "w") as mainblog_file:
 <div id="blog{n_post_per_keyword[ll]%2 + 1}">
   <div class="container">
     <div class="section-title text-center center">
-      <h2>{this_title}</h2>
+      <h1>{this_title}</h1>
       <hr>
       <h5>{this_date} | {this_author}</h5>
     </div>
