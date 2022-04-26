@@ -97,7 +97,7 @@ blog_header = f"""
 <!-- Stylesheet
     ================================================== -->
 <link rel="stylesheet" type="text/css"  href="css/Blogstyle.css">
-<link rel="stylesheet" type="text/css"  href="css/CHSstyle.css">
+<link rel="stylesheet" type="text/css"  href="css/blog.css">
 <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
 
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
@@ -181,7 +181,7 @@ with open("./blog.html", "w") as mainblog_file:
 <div id="blog{ii%2 + 1}">
   <div class="container">
     <div class="section-title text-center center">
-      <h1>{this_title}</h1>
+      <h2>{this_title}</h2>
       <hr>
       <h5>{this_date} | {this_author}</h5>
     </div>
@@ -223,7 +223,7 @@ with open("./blog.html", "w") as mainblog_file:
 <div id="blog{n_post_per_keyword[ll]%2 + 1}">
   <div class="container">
     <div class="section-title text-center center">
-      <h1>{this_title}</h1>
+      <h2>{this_title}</h2>
       <hr>
       <h5>{this_date} | {this_author}</h5>
     </div>
