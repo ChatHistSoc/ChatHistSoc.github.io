@@ -30,6 +30,11 @@ h5 {
 	font-weight: 700;
 	line-height: 20px;
 }
+h6 {
+	color: #121d1f;
+	font-weight: 400;
+	font-size: 34px;
+}
 .alert-box {
 	background-color: #DDFFE6;
 	color: #777;
