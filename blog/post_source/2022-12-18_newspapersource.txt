@@ -1,5 +1,6 @@
 2022-12-18_newspapersource_content.txt
 2022-12-18_newspapersource_img_list.txt
+2022-12-18_newspapersource_captions.txt
 The Importance of Hometown Newspapers
 Mick Jarvis
 December 18, 2022

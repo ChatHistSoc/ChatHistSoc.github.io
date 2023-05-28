@@ -1,5 +1,6 @@
 2021-03-06_westmainstreetpreWWI_content.txt
 2021-03-06_westmainstreetpreWWI_img_list.txt
+2021-03-06_westmainstreetpreWWI_captions.txt
 West Main Street Pre WWI
 Mick Jarvis
 March 6, 2021

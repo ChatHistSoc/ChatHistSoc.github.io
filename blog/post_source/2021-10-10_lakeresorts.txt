@@ -1,5 +1,6 @@
 2021-10-10_lakeresorts_content.txt
 2021-10-10_lakeresorts_img_list.txt
+2021-10-10_lakeresorts_captions.txt
 Resort Hotels on Upper Chateaugay Lake
 Mick Jarvis
 October 10, 2021

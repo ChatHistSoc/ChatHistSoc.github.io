@@ -8,7 +8,7 @@
 
 <p>Eventually, competition from new and faster methods of shipping goods led to the railroad’s inability to maintain a profit with the northern New York line. On June 5, 1965 the last train rolled through Chateaugay and the railroad era came to a local end.</p>
 
-<p><h3>Chateaugay Record - June 9, 1967</h3></p>
+<h4>Chateaugay Record - June 9, 1967</h4>
 
 <p>The following column appeared in the Chateaugay Record on June 9, 1967. It captures what the railroad meant to Chateaugay and the change about to happen with its closure.</p>
 
@@ -30,7 +30,7 @@ Indeed, their vision was not far wrong. By the late 1800s the town was booming, 
 <p>The timeline below sets the details and dates of Chateaugay’s railroad experience. The included images are of the trains and the depot from across the years.</p>
 
 
-<p><h3>Timeline of the Railroad in Chateaugay</h3></p>
+<h4>Timeline of the Railroad in Chateaugay</h4>
 
 <li>1850 – The first train passes through Chateaugay on June 4. </li>
 
