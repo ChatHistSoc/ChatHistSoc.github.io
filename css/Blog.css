@@ -1,0 +1,332 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../images/1923-04-04_ChatRec_NewsprintImage.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 359px;
+}
+
+.u-section-1 .u-text-1 {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  margin: 68px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  line-height: 1.8;
+  text-shadow: 2px 2px 8px rgba(0,0,0,1);
+  font-size: 1.125rem;
+  width: 680px;
+  margin: 29px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 354px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-2 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-2 {
+    width: 340px;
+  }
+}.u-section-2 .u-sheet-1 {
+  min-height: 1045px;
+}
+
+.u-section-2 .u-list-1 {
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.u-section-2 .u-repeater-1 {
+  grid-gap: 10px 10px;
+  grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
+  min-height: 905px;
+}
+
+.u-section-2 .u-image-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("../images/B5UnionHouse-color.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-2 .u-container-layout-1 {
+  padding: 10px 10px 4px;
+}
+
+.u-section-2 .u-text-1 {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.95);
+  margin: 36px auto 0;
+}
+
+.u-section-2 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.85);
+  margin: 129px auto 0 87px;
+}
+
+.u-section-2 .u-image-2 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("../images/ChatHist-124.jpg");
+  background-position: 50% 46.96%;
+}
+
+.u-section-2 .u-container-layout-2 {
+  padding: 10px 10px 4px;
+}
+
+.u-section-2 .u-text-2 {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.95);
+  margin: 36px auto 0;
+}
+
+.u-section-2 .u-btn-2 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.85);
+  margin: 129px auto 0 87px;
+}
+
+.u-section-2 .u-image-3 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("../images/Chathist-178UNFILED.jpg");
+  background-position: 41.74% 50%;
+}
+
+.u-section-2 .u-container-layout-3 {
+  padding: 10px 10px 4px;
+}
+
+.u-section-2 .u-text-3 {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.95);
+  margin: 36px auto 0;
+}
+
+.u-section-2 .u-btn-3 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.85);
+  margin: 129px auto 0 87px;
+}
+
+.u-section-2 .u-image-4 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("../images/Chathist-203.jpg");
+  background-position: 32.71% 50%;
+}
+
+.u-section-2 .u-container-layout-4 {
+  padding: 10px 10px 4px;
+}
+
+.u-section-2 .u-text-4 {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.95);
+  margin: 36px auto 0;
+}
+
+.u-section-2 .u-btn-4 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.85);
+  margin: 129px auto 0 87px;
+}
+
+.u-section-2 .u-image-5 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("../images/chatlake1a2.jpg");
+}
+
+.u-section-2 .u-container-layout-5 {
+  padding: 10px 10px 4px;
+}
+
+.u-section-2 .u-text-5 {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.95);
+  margin: 36px auto 0;
+}
+
+.u-section-2 .u-btn-5 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.85);
+  margin: 129px auto 0 87px;
+}
+
+.u-section-2 .u-image-6 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("../images/Chathist-175.jpg");
+  background-position: 64.19% 50%;
+}
+
+.u-section-2 .u-container-layout-6 {
+  padding: 10px 10px 4px;
+}
+
+.u-section-2 .u-text-6 {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.95);
+  margin: 36px auto 0;
+}
+
+.u-section-2 .u-btn-6 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.85);
+  margin: 129px auto 0 87px;
+}
+
+.u-section-2 .u-image-7 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("../images/ChatHist-397_Business.jpg");
+  background-position: 26.71% 50%;
+}
+
+.u-section-2 .u-container-layout-7 {
+  padding: 10px 10px 4px;
+}
+
+.u-section-2 .u-text-7 {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.95);
+  margin: 36px auto 0;
+}
+
+.u-section-2 .u-btn-7 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.85);
+  margin: 129px auto 0 87px;
+}
+
+.u-section-2 .u-image-8 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("../images/RRStationWithTraincolor.jpg");
+  background-position: 92.24% 50%;
+}
+
+.u-section-2 .u-container-layout-8 {
+  padding: 10px 10px 4px;
+}
+
+.u-section-2 .u-text-8 {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.95);
+  margin: 36px auto 0;
+}
+
+.u-section-2 .u-btn-8 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.85);
+  margin: 129px auto 0 87px;
+}
+
+.u-section-2 .u-image-9 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("../images/2017about_e.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-2 .u-container-layout-9 {
+  padding: 10px 10px 4px;
+}
+
+.u-section-2 .u-text-9 {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.95);
+  margin: 36px auto 0;
+}
+
+.u-section-2 .u-btn-9 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.85);
+  margin: 129px auto 0 87px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-repeater-1 {
+    min-height: 746px;
+  }
+
+  .u-section-2 .u-btn-1 {
+    margin-left: auto;
+    margin-bottom: 10px;
+  }
+
+  .u-section-2 .u-btn-2 {
+    margin-left: auto;
+    margin-bottom: 10px;
+  }
+
+  .u-section-2 .u-btn-3 {
+    margin-left: auto;
+    margin-bottom: 10px;
+  }
+
+  .u-section-2 .u-btn-4 {
+    margin-left: auto;
+    margin-bottom: 10px;
+  }
+
+  .u-section-2 .u-btn-5 {
+    margin-left: auto;
+    margin-bottom: 10px;
+  }
+
+  .u-section-2 .u-btn-6 {
+    margin-left: auto;
+    margin-bottom: 10px;
+  }
+
+  .u-section-2 .u-btn-7 {
+    margin-left: auto;
+    margin-bottom: 10px;
+  }
+
+  .u-section-2 .u-btn-8 {
+    margin-left: auto;
+    margin-bottom: 10px;
+  }
+
+  .u-section-2 .u-btn-9 {
+    margin-left: auto;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-repeater-1 {
+    grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+    min-height: 1085px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-repeater-1 {
+    grid-template-columns: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 2520px;
+  }
+
+  .u-section-2 .u-list-1 {
+    margin-bottom: 40px;
+  }
+}
