@@ -1,5 +1,6 @@
 2021-07-16_gateshoitmap_content.txt
 2021-07-16_gateshoitmap_img_list.txt
+2021-07-16_gateshoitmap_captions.txt
 Gates Hoit Map
 Mick Jarvis
 July 16, 2021

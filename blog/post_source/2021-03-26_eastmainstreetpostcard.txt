@@ -1,5 +1,6 @@
 2021-03-26_eastmainstreetpostcard_content.txt
 2021-03-26_eastmainstreetpostcard_img_list.txt
+2021-03-26_eastmainstreetpostcard_captions.txt
 East Main Street Postcard
 Mick Jarvis
 March 26, 2021
