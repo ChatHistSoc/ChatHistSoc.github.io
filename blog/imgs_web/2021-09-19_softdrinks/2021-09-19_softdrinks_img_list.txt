@@ -1,7 +1,0 @@
-softdrinks_01.png
-softdrinks_02.png
-softdrinks_03.png
-softdrinks_04.png
-softdrinks_05.png
-softdrinks_06.png
-softdrinks_07.png
