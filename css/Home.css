@@ -615,6 +615,13 @@
   background-size: auto 105%;
 }
 
+.u-section-3 .u-image-2 {
+  min-height: 409px;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.05), rgba(0,0,0,0.05)), url("../images/2023_CVHS_TasteOfHistory_Event-Ad.jpg");
+  background-position: auto;
+  background-size: auto 100%;
+}
+
 .u-section-3 .u-container-layout-2 {
   padding: 30px;
 }
