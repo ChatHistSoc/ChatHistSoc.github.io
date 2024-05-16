@@ -32,7 +32,7 @@
 }
 
 .u-section-2 .u-image-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../images/304841966_550419500214511_916795562908724927_n.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../images/Exhibit_2022_EarlyLakes.jpg");
   background-position: 50% 50%;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .u-section-2 .u-image-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../images/Exhibit-2021_Photography_Image.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../images/Exhibit_2021_Photography_Image.jpg");
   background-position: 44.74% 50%;
 }
 
@@ -88,7 +88,7 @@
 }
 
 .u-section-2 .u-image-3 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../images/ScreenShot2022-09-07at2.50.59PM.png");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../images/Exhibit_2021_CCS-PearlHarbor.png");
   background-position: 50% 50%;
 }
 
@@ -116,7 +116,7 @@
 }
 
 .u-section-2 .u-image-4 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../images/Trainthroughtown.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../images/Exhibit_2019_RR-Trainthroughtown.jpg");
   background-position: 50% 50%;
 }
 
@@ -144,7 +144,7 @@
 }
 
 .u-section-2 .u-image-5 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../images/62669194_2124398987613480_6502789423418048512_n.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../images/Exhibit_2019_DairyAndGas.jpg");
   background-position: 50% 50%;
 }
 
@@ -201,6 +201,11 @@
 
 .u-section-2 .u-image-7 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../images/Exhibit_2023_Merrill House - color postcard.jpg");
+  background-position: 50% 45.87%;
+}
+
+.u-section-2 .u-image-8 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../images/Exhibit_2024_Snowflake-BackgroundSquare_e.png");
   background-position: 50% 45.87%;
 }
 
