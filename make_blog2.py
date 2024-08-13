@@ -80,7 +80,7 @@ def blog_header(keyword):
 </li><li class="u-nav-item"><a class="u-active-grey-70 u-button-style u-hover-grey-70 u-nav-link u-text-active-white u-text-hover-white" href="../../Learn.html" style="padding: 10px 20px;">Learn</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-4"><li class="u-nav-item"><a class="u-button-style u-hover-palette-5-light-2 u-nav-link u-white" href="../../Blog.html">Blog</a>
 </li><li class="u-nav-item"><a class="u-button-style u-hover-palette-5-light-2 u-nav-link u-white" href="../../Collections-and-Research.html">Collections and Research</a>
 </li><li class="u-nav-item"><a class="u-button-style u-hover-palette-5-light-2 u-nav-link u-white" href="../../Exhibits.html">Exhibits</a>
-</li><li class="u-nav-item"><a class="u-button-style u-hover-palette-5-light-2 u-nav-link u-white" href="../../Local-Tours.html">Local Tours</a>
+</li><li class="u-nav-item"><a class="u-button-style u-hover-palette-5-light-2 u-nav-link u-white" href="../../Historic-Sites.html">Historic Sites</a>
 </li><li class="u-nav-item"><a class="u-button-style u-hover-palette-5-light-2 u-nav-link u-white" href="../../Resources.html">Resources</a>
 </li></ul>
 </div>
@@ -106,7 +106,7 @@ def blog_header(keyword):
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="../../Learn.html">Learn</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-8"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="../../Blog.html">Blog</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="../../Collections-and-Research.html">Collections and Research</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="../../Exhibits.html">Exhibits</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="../../Local-Tours.html">Local Tours</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="../../Historic-Sites.html">Historic Sites</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="../../Resources.html">Resources</a>
 </li></ul>
 </div>
