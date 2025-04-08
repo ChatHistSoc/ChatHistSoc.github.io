@@ -1,5 +1,8 @@
+.u-section-1{
+  background-color: #D7CCBF;
+}
 .u-section-1 .u-sheet-1 {
-  padding: 30px;
+  padding: 10px;
   background-color: #D7CCBF;
   min-height: 1177px;
 }
@@ -224,6 +227,9 @@
   min-height: 318px;
 }
 
+.u-section-2 {
+  background-color: #C5C0AC;
+}
 .u-section-2 .u-sheet-1 {
   padding: 20px;
   background-color: #C5C0AC;
