@@ -25,7 +25,7 @@
 }
 
 .u-section-1 .u-image-1 {
-  background-image: url("../images/Beman-Excavation-01.png");
+  background-image: url("../images/Beman-Homestead-02.jpg");
   background-position: 50% 50%;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .u-section-1 .u-image-2 {
-  background-image: url("../images/Beman-Excavation-08.png");
+  background-image: url("../images/Beman-Homestead-01.jpg");
   background-position: 36.64% 50%;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .u-section-1 .u-image-3 {
-  background-image: url("../images/Beman-Excavation-04.png");
+  background-image: url("../images/Beman-Homestead-03.jpg");
   background-position: 50% 50%;
 }
 
@@ -142,12 +142,16 @@
     grid-auto-columns: 100%;
   }
 
+  .u-section-1 .u-image-1 {
+    background-position: 36.64% 65%;
+  }
+
   .u-section-1 .u-image-2 {
-    background-position: 36.64% 42.23%;
+    background-position: 36.64% 65%;
   }
 
   .u-section-1 .u-image-3 {
-    background-position: 50% 63.75%;
+    background-position: 50% 65%;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -164,6 +168,15 @@
     min-height: 267px;
   }
 
+
+  .u-section-1 .u-image-2 {
+    background-position: 10% 50%;
+  }
+
+  .u-section-1 .u-image-3 {
+    background-position: 60% 65%;
+  }
+
   .u-section-1 .u-icon-1 {
     margin-right: auto;
   }
@@ -173,8 +186,15 @@
   .u-section-1 .u-layout-cell-2 {
     min-height: 168px;
   }
-}
 
+  .u-section-1 .u-image-2 {
+    background-position: 36.64% 25%;
+  }
+
+  .u-section-1 .u-image-3 {
+    background-position: 60% 60%;
+  }
+}
 
 .u-section-2 {
   background-color: #C5C0AC;
