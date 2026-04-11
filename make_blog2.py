@@ -42,7 +42,7 @@ def blog_header(keyword):
         "@context": "http://schema.org",
         "@type": "Organization",
         "name": "CHS-Website",
-        "logo": "../../images/CHSLOGO-white.png",
+        "logo": "../../images/CHS-Logo_2026.png",
         "sameAs": [
                 "https://www.facebook.com/profile.php?id=100057393972683"
         ]
